@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>CommanderKeen</title>
+</head>
+<body>
+    <div id="Titel">
+        <h1>Deelname prijsvraag - Commander Keen: Goodbye Galaxy!</h1>
+    </div>
+    <div id="Tekst">
+        <p>Onlangs is Commander Keen: Goodbye Galaxy! verschenen en dus hebben wij, in samenwerking met id Software een toffe prijsvraag voor jullie. Vanaf nu maak je kans op een van de vier exemplaren van de game. Vul onderstaande gegevens in en geef antwoord op de volgende vraag:</p>
+
+        <h2>Tegen welk buitenaards ras neemt Commander Keen het op in Goodby Galaxy!?</h2>
+
+        <p>Wie weet maak jij kans op een van de vier Limited Edition uitvoeringen van de game Commander Keen: Goodbye Galaxy!</p>
+    </div>
+
+    <div id="Afbeelding">
+        <img src="commanderkeen.jpg" alt="CommanderKeen">
+    </div>
+
+    <form>
+        <div id="Voornaam">
+            <label>Voornaam:</label>
+            <input type="text" pattern="[A-Za-z]" maxlength="20" required>
+        </div>
+
+        <div id="Achternaam">
+            <label>Achternaam:</label>
+            <input type="text" pattern="[A-Za-z]" maxlength="30" required>
+        </div>
+
+        <div id="Adres">
+            <label>Adres:</label>
+            <input type="text" pattern="[A-Za-z]" maxlength="40" required>
+        </div>
+
+        <div id="Huisnummer">
+            <label>Huisnummer:</label>
+            <input type="text" pattern="[0-9]" maxlength="4" required>
+        </div>
+
+        <div id="Postcode">
+            <label>Postcode:</label>
+            <input type="text" pattern="[0-9]{4}[A-Za-z]{2}" maxlength="6"required>
+        </div>
+
+        <div id="Stad">
+            <label>Stad:</label>
+            <input type="text" pattern="[A-Za-z]" maxlength="20" required>
+        </div>
+
+        <div id="Geslacht">
+            <label>Geslacht:</label><br>
+            <input type="radio" name="geslacht" value="Man" required><label>Man</label>
+            <input type="radio" name="geslacht" value="Vrouw" required><label>Vrouw</label>
+            <input type="radio" name="geslacht" value="Overig" required><label>Overig</label>
+        </div>
+
+        <div id="Geboortedatum">
+            <label>Geboortedatum:</label>
+            <input type="text" pattern="[0-9]" maxlength="2" required>
+            <select required>
+                <option>Januari</option>
+                <option>Februari</option>
+                <option>Maart</option>
+                <option>April</option>
+                <option>Mei</option>
+                <option>Juni</option>
+                <option>Juli</option>
+                <option>Augustus</option>
+                <option>September</option>
+                <option>Oktober</option>
+                <option>November</option>
+                <option>December</option>
+            </select>
+            <input type="text" pattern="[0-9]" maxlength="4" required>
+        </div>
+
+        <div id="Antwoord">
+            <label>Antwoord:</label>
+            <input type="text" pattern="[A-Za-z0-9]" maxlength="500" required>
+        </div>
+        <br>
+        <div id="Verzenden">
+            <button type="submit">Verzenden</button>
+        </div>
+    
+
+    </form>
+
+</body>
+</html>
+
+
